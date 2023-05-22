@@ -80,8 +80,7 @@ class TDDSongTest {
                 "How absurd to swallow a spider.\n" +
                 "She swallowed the spider to catch the fly,\n" +
                 "She swallowed the fly to catch the bird;\n" +
-                "I don't know why she swallowed a bird - perhaps she'll die!\n" +
-                "\n";
+                "I don't know why she swallowed a bird - perhaps she'll die!\n";
 
         String actual = song.TDDSong(cadena);
         assertEquals(expected, actual);
